@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="image_marginTop">16dp</dimen>
+    <dimen name="title_textSize">24sp</dimen>
+    <dimen name="description_textSize">16sp</dimen>
+    <dimen name="button_marginTop">16dp</dimen>
+</resources>

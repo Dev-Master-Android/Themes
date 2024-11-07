@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Цвета для тёмной темы -->
+    <color name="primary_color">#BB86FC</color>
+    <color name="primary_dark_color">#3700B3</color>
+    <color name="secondary_color">#03DAC6</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="background_color">#000000</color>
+
+    <!-- Base application theme for dark mode -->
+    <style name="Base.Theme.Themes.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/secondary_color</item>
+        <!-- Цвета для текста и фона -->
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:background">@color/background_color</item>
+    </style>
+</resources>

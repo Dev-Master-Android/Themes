@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample_product"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/im" />
+
+    <TextView
+        android:id="@+id/productTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productImageView"
+        android:layout_marginTop="@dimen/image_marginTop"
+        android:text="@string/product_title"
+        android:textSize="@dimen/title_textSize"
+        android:textColor="?android:textColor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/productDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productTitleTextView"
+        android:layout_marginTop="8dp"
+        android:text="@string/product_description"
+        android:textSize="@dimen/description_textSize"
+        android:textColor="?android:textColor"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productDescriptionTextView"
+        android:layout_marginTop="@dimen/button_marginTop"
+        android:text="@string/buy_button"
+        android:background="?attr/colorPrimary"
+        android:textColor="?android:textColor"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Themes</string>
+    <string name="product_title">Название товара</string>
+    <string name="product_description">Описание товара</string>
+    <string name="buy_button">Купить</string>
+    <string name="im">Изображение товара</string>
+</resources>
